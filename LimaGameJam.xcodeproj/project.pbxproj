@@ -1757,6 +1757,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = LimaGameJam;
+				TargetAttributes = {
+					E6E265181893EDBB006CCE99 = {
+						DevelopmentTeam = HGJJY9U5S4;
+					};
+				};
 			};
 			buildConfigurationList = E6E265141893EDBB006CCE99 /* Build configuration list for PBXProject "LimaGameJam" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2103,6 +2108,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2119,6 +2126,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2128,6 +2136,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LimaGameJam/Supporting Files/Prefix.pch";
@@ -2143,6 +2153,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2167,6 +2178,7 @@
 				E6E267EE1893EDBF006CCE99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6E267EF1893EDBF006CCE99 /* Build configuration list for PBXNativeTarget "LimaGameJam" */ = {
 			isa = XCConfigurationList;
@@ -2175,6 +2187,7 @@
 				E6E267F11893EDBF006CCE99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
