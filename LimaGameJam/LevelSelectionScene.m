@@ -4,8 +4,7 @@
 
 @implementation LevelSelectionScene
 
-+ (LevelSelectionScene *)scene
-{
++ (LevelSelectionScene *)scene {
     return [[self alloc] init];
 }
 
